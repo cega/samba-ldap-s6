@@ -1,0 +1,50 @@
+repo_name: cega/samba-ldap-s6
+report_id: 65f45244aff71f7b1942ae62a125d46b
+repo_type: Public
+timestamp: '2023-11-21T12:18:45+00:00'
+requested_by: guillaumedsde
+provider: github
+branch: master
+detected_tools_count: 4
+tools:
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: guillaumedsde
+  last_updated_on: 2023-02-12 09:26:16.000000000 Z
+- name: Debian
+  description: The Universal Operating System
+  website_url: https://www.debian.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/1656/vd4gAekh.png
+  detection_source: Dockerfile
+  last_updated_by: guillaumedsde
+  last_updated_on: 2023-02-15 20:40:58.000000000 Z
